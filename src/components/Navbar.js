@@ -17,7 +17,16 @@ function Navbar() {
               <i className={click?"fa-solid fa-bars":'fa-solid fa-xmark'}/>
             </div>
             <ul>
-              <li>
+              <li>Home
+                <Link to='./home' className='nav-links'/>
+              </li>
+              <li>Recipes
+                <Link to='./home' className='nav-links'/>
+              </li>
+              <li>Features
+                <Link to='./home' className='nav-links'/>
+              </li>
+              <li>About Us
                 <Link to='./home' className='nav-links'/>
               </li>
             </ul>
