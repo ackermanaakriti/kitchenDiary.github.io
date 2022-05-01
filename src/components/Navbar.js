@@ -16,7 +16,7 @@ function Navbar() {
           <div className='navbar-container'>
             <img className='nav-img' src={navlogo}/>
             <div className='menu-logo' onClick={handleClick}>
-              <i className={click?"fa-solid fa-bars":'fa-solid fa-xmark'}/>
+              <i className={click?'fas fa-times':'fas fa-bars'}/>
             </div>
             <ul>
               <li>Home

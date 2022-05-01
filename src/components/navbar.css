@@ -1,4 +1,22 @@
 .nav-img
 {
-    height: 160px;
+    height: 20vh;
+    object-fit: cover;
+    margin:9px;
+    border-radius: 28px;
+}
+.fa-bars
+{
+    color:rgb(52, 52, 167);
+    font-size: 30px;
+}
+.fa-times
+{
+    color:rgb(65, 149, 228);
+    font-size: 30px;
+}
+.menu-logo
+{
+   
+    height: 20px;
 }
