@@ -1,21 +1,16 @@
-import React ,{useState} from 'react';
+import { Routes, Router,BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 
 function App() {
-const[click, Setclick]= useState(false);
   return (
-    <div className="nav">
-      <div className='navbar-container'>
-        <img className='nav-img' src=''/>
-        <div className='menu-logo' onClick=''>
-          <i className={click?}
+    <div className="App">
+      <Router>
+     <Navbar/>
+     </Router>
+     <Routes>
 
-
-        </div>
-
-      </div>
-     
+     </Routes>
     </div>
   );
 }
