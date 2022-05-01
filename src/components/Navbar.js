@@ -1,5 +1,7 @@
 import React,{useState} from 'react'
 import {Link} from 'react-router-dom'
+import navlogo from './navlogo.jpeg'
+import './navbar.css'
 
 
 function Navbar() {
@@ -12,7 +14,7 @@ function Navbar() {
       return (
         <div className="nav">
           <div className='navbar-container'>
-            <img className='nav-img' src=''/>
+            <img className='nav-img' src={navlogo}/>
             <div className='menu-logo' onClick={handleClick}>
               <i className={click?"fa-solid fa-bars":'fa-solid fa-xmark'}/>
             </div>
