@@ -3,14 +3,39 @@
     background: #000;
     height: 90vh;
     width: 100%;
+   
+    position:absolute;
+    display: inline-flex;
 }
 .card-container
 {
-    background: rgb(196, 112, 112);
-    height: 60vh;
+    background: rgb(204, 114, 156);
+    height: 65vh;
     width: 25vw;
+    margin: 60px auto;
+   
+  
+}
+.mycards
+{
+    background: rgb(66, 204, 193);
+
+height:100% ;
+margin:5px 5px;
+
+
+
+}
+.img-container
+{
+margin:10px;
+    
 }
 .food-image
 {
-    
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  
+
 }
