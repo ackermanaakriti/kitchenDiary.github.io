@@ -7,18 +7,14 @@
     background: transparent;
 }
 .nav{
-    width: 100%;
-  
+   
+
 }
 .navbar-container
 {
-    background: #000;
-    height: 100px;
-width: 100%;
-display: inline-flex
-
-
-
+    background: rgb(58, 56, 56);
+height: 20vh;
+display: flex;
 }
 ul
 {
@@ -52,4 +48,6 @@ ul
 {
    
     height: 20px;
+    margin: 45px;
+
 }

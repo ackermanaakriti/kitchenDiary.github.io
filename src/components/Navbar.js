@@ -15,9 +15,7 @@ function Navbar() {
         <div className="nav">
           <div className='navbar-container'>
             <img className='nav-img' src={navlogo}/>
-            <div className='menu-logo' onClick={handleClick}>
-              <i className={click?'fas fa-times':'fas fa-bars'}/>
-            </div>
+            
             <ul>
               <li>Home
                 <Link to='./home' className='nav-links'/>
@@ -32,6 +30,9 @@ function Navbar() {
                 <Link to='./home' className='nav-links'/>
               </li>
             </ul>
+            <div className='menu-logo' onClick={handleClick}>
+              <i className={click?'fas fa-times':'fas fa-bars'}/>
+            </div>
     
           </div>
          
