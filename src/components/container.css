@@ -1,0 +1,16 @@
+.div-container
+{
+    background: #000;
+    height: 90vh;
+    width: 100%;
+}
+.card-container
+{
+    background: rgb(196, 112, 112);
+    height: 60vh;
+    width: 25vw;
+}
+.food-image
+{
+    
+}
