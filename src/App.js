@@ -8,7 +8,7 @@ function App() {
    <>
     
     <Navbar/>
-   <Container/>
+  
      <Routes>
     
      </Routes>
