@@ -1,41 +1,13 @@
-.div-container
+.body-img
 {
-    background: #000;
-    height: 90vh;
-    width: 100%;
-   
-    position:absolute;
-    display: inline-flex;
-}
-.card-container
-{
-    background: rgb(204, 114, 156);
-    height: 65vh;
-    width: 25vw;
-    margin: 60px auto;
-   
-  
-}
-.mycards
-{
-    background: rgb(66, 204, 193);
-
-height:100% ;
-margin:5px 5px;
-
-
-
+    height: 300px;
+    width: 250px;
 }
 .img-container
 {
-margin:10px;
-    
+    margin:20px;
 }
-.food-image
+.div-container
 {
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
-  
-
+    background: rgb(235, 165, 165);
 }
