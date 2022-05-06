@@ -8,8 +8,8 @@ function Container() {
    <>
    <div className='div-container'>
      <div className='card-container'>
-       <Cards />
-       <Cards/>
+       {/* <Cards />
+       <Cards/> */}
 
      </div>
    </div>
