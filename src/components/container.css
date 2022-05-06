@@ -1,13 +1,28 @@
 .body-img
 {
-    height: 300px;
-    width: 250px;
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+    margin:30px;
+    border-radius: 150px;
+}
+.card-container
+{
+    display: block;
+}
+.card-container p
+{
+float: left;
 }
 .img-container
 {
-    margin:20px;
+   
+    float: right;
 }
 .div-container
 {
-    background: rgb(235, 165, 165);
+
+    background: rgb(235, 165, 16);
+    height: 90vh;
+    width: 100%;
 }
