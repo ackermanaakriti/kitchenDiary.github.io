@@ -6,9 +6,12 @@
     border-radius: 28px;
     background: transparent;
 }
-.nav{
-   
-
+.logo-p
+{
+    color: rgb(233, 233, 233);
+    font-size: 20px;
+    font-weight: 900;
+    font-family:'Courier New', Courier, monospace;
 }
 .navbar-container
 {

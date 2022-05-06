@@ -15,6 +15,7 @@ function Navbar() {
         <div className="nav">
           <div className='navbar-container'>
             <img className='nav-img' src={navlogo}/>
+            <p className='logo-p'>KitchenDiary</p>
             
             <ul>
               <li>Home
