@@ -28,7 +28,15 @@
     border: 2px solid black;
     margin-left:20vw;
     border-radius: 20px;
-    margin-top:10vh;
+    margin-top:9vh;
+    cursor: pointer;
+    font-size: 18px;
+}
+.recipe-btn:hover
+{
+    background: #000;
+    color:whitesmoke
+
 }
 .div-container
 {
