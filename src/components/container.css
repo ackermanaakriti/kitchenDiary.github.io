@@ -8,21 +8,32 @@
 }
 .card-container
 {
-    display: block;
+    display: inline-flex;
 }
-.card-container p
+.food-info
 {
-float: left;
+    float: left;
+    margin-top:25vh;
+    margin-left:10vw;
 }
 .img-container
 {
    
     float: right;
 }
+.recipe-btn
+{
+    padding: 8px;
+    width: 200px;
+    border: 2px solid black;
+    margin-left:20vw;
+    border-radius: 20px;
+    margin-top:10vh;
+}
 .div-container
 {
 
-    background: rgb(235, 165, 16);
+    background: rgb(241, 240, 236);
     height: 90vh;
     width: 100%;
 }
