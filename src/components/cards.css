@@ -7,27 +7,28 @@
     align-items: center;
     justify-content: center;
     width:27vw;
-    margin:35px;
-    border-radius: 8px;
-    background: rgb(238, 232, 213);
+    border-radius: 10px;
+    background: rgb(15, 15, 15);
 }
 .cards:hover{
     box-shadow: 2px rgb(158, 133, 133);
 }
 .img-container
 {
-    padding:8px;
+height: 100%;
 }
 .card-img
 {
   height: 200px;
-  width: 100%;
+
   object-fit: cover;
   border-radius: 18px;
+  margin:5px;
 }
 .cardinfo
 {
     text-align: center;
+    color:whitesmoke;
 }
 .btn
 {
@@ -39,7 +40,7 @@
   margin-bottom:5px;
 }
 .btn:hover{
-    background: rgb(130, 143, 145);
+    background: rgb(10, 10, 10);
     color:white;
     font-size:15px;
     border:2px solid white;
