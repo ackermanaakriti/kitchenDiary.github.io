@@ -9,7 +9,7 @@ function Container() {
   return (
    <>
    <div className='div-container'>
-     <div className='card-container'>
+     <div className='mycard-container'>
        <div className='food-info'>
          <h1>FOOD AND RECIPES</h1>
          <h2>Best food for your test</h2>
