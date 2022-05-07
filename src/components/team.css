@@ -1,0 +1,15 @@
+.wrapper
+{
+    background: rgb(233, 223, 223);
+    margin-top:10px;
+}
+.wrapper h2
+{
+    text-align: center;
+    font-size: 30px;
+}
+.team-member
+{
+    background: rgb(77, 58, 58);
+   
+}

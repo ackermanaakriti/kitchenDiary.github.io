@@ -3,6 +3,7 @@ import './App.css';
 import Cardcontainer from './components/Cardcontainer';
 import Container from './components/Container';
 import Navbar from './components/Navbar';
+import Team from './components/team';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Navbar/>
   <Container/>
   <Cardcontainer/>
+ <Team/>
      <Routes>
     
      </Routes>
