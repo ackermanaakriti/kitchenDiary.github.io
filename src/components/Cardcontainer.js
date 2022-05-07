@@ -5,10 +5,10 @@ function Cardcontainer() {
   return (
    <>
    <div className='card-container'>
-     <h1>Popular food</h1>
-     <div className='cards'> 
+     <h1 className='heading'>Popular food</h1>
+     <div className='mycards'> 
      <Cards/>
-
+<Cards/>
      </div>
    </div>
    </>
