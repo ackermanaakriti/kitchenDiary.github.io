@@ -3,18 +3,20 @@
 .heading
 {
     text-align: center;
+  font-size: 50px;
 }
 .card-container
 {
     height: 90vh;
     width:100%;  
-    background: rgb(211, 174, 174);
+
    
 }
 .mycards
 {
     display: flex;
     width: 100%;
+    overflow: scroll;
 
 }
 @media screen and (max-width:690px)

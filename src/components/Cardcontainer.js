@@ -11,6 +11,8 @@ function Cardcontainer() {
      <div className='mycards'> 
      <Cards/>
      <Cards/>
+     <Cards/>
+     <Cards/>
      </div>
    </div>
    </>
