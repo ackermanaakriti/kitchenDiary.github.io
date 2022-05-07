@@ -11,8 +11,12 @@ function Team() {
             <Teamcard/>
             <Teamcard/>
             <Teamcard/>
-            
         </div>
+    <div className='contactus'>
+        <h3> ASK US ANYTHING</h3>
+        <input type='text' placeholder='your question or feedback'></input>
+        <button type='submit'> Submit</button>
+    </div>
     </div>
     </>
   )

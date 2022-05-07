@@ -2,6 +2,8 @@
 {
     background: rgb(233, 223, 223);
     margin-top:10px;
+    width: 100%;
+    height: 80vh;
 }
 .wrapper h2
 {
@@ -13,13 +15,15 @@
     justify-content: center;
 }
 .team-member
-{
-    background: rgb(77, 58, 58);
-    margin:27px;
-    height: 35vh;
-    width:25vw;
+{  display: block;
+    background: rgb(245, 238, 238);
+    margin:15px;
+    height: 40vh;
+ 
     border-radius: 20px;
     text-align: center;
+    overflow: scroll;
+    
 }
 .team-img
 {
@@ -27,9 +31,40 @@
     width: 100px;
     object-fit: cover;
     border-radius: 50%;
-    transform: translateY(-15%);
+ 
 }
-.team-member h3{
-    color:white;
+.teaminfo p
+{
+    color:rgb(0, 0, 0);
+    justify-content: center;
     
+   overflow:hidden;
+   margin:5px;
 }
+.contactus
+{
+   
+    justify-content: center;
+    text-align: center;
+}
+.contactus h3{
+    text-align: center;
+}
+.contactus input
+{
+    padding:20px;
+    width: 20vw;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+.contactus button{
+    padding:10px;
+   
+    border: 2px solid black;
+    border-radius: 40px;
+    margin:3px;
+    background:black;
+    color:whitesmoke;
+}
+
+/*footer*/

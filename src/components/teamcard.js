@@ -7,10 +7,12 @@ function Teamcard() {
     <>
     <div className='team-member'>
         <img className='team-img' src={chef}/>
-                <h3>AAkriti</h3>
-                <p className='role'>Chef</p>
-                <p>ajf idufmjocdsjfn awiuosdfkmjasdoufjh nad kfj nadlfkj
+             <div className='teaminfo'>
+                <h3>Santosh Shah</h3>
+                
+                <p>Santosh worked at some of famous Indian restaurants in London including Dishoom and Michelin-starred Benares,[9] before becoming a sous-chef at Chef Vivek Singh’s Westminster hot spot, The Cinnamon Club.[2] Santosh worked at The Cinnamon Club for several years, before eventually becoming Head Chef at its sister restaurant, Cinnamon Kitchen, in the City.[11]
                 </p>
+                </div>
             </div>
     </>
   )
