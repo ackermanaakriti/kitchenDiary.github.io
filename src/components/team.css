@@ -8,8 +8,28 @@
     text-align: center;
     font-size: 30px;
 }
+.team{
+    display:flex;
+    justify-content: center;
+}
 .team-member
 {
     background: rgb(77, 58, 58);
-   
+    margin:27px;
+    height: 35vh;
+    width:25vw;
+    border-radius: 20px;
+    text-align: center;
+}
+.team-img
+{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    transform: translateY(-15%);
+}
+.team-member h3{
+    color:white;
+    
 }

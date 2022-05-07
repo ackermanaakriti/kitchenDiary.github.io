@@ -10,6 +10,7 @@ function Team() {
         <div className='team'>
             <Teamcard/>
             <Teamcard/>
+            <Teamcard/>
             
         </div>
     </div>
