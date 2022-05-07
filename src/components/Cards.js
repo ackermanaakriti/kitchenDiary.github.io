@@ -1,6 +1,8 @@
 import React from 'react'
 import './container.css'
 import food from './food.jpeg'
+import './cards.css'
+import chickencurry from './curry.jpeg'
 
 function Cards() {
   return (
@@ -8,7 +10,7 @@ function Cards() {
         <div className='mycard-container'>
         <div className= 'cards'>
             <div className='img-container'>
-            <img  className='card-img' src={''}/>
+            <img  className='card-img' src={chickencurry}/>
             </div>
             <div className='cardinfo'>
             <h4>Chicken Curry </h4>
