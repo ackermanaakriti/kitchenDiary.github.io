@@ -1,6 +1,6 @@
 import React from 'react'
 import './container.css'
-import food from './food.jpeg'
+
 import './cards.css'
 import chickencurry from './curry.jpeg'
 

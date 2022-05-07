@@ -9,6 +9,7 @@
     width:27vw;
     border-radius: 10px;
     background: rgb(15, 15, 15);
+    margin:20px;
 }
 .cards:hover{
     box-shadow: 2px rgb(158, 133, 133);
