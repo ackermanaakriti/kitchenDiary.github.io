@@ -7,8 +7,9 @@
 }
 .card-container
 {
-    height: 90vh;
+   
     width:100%;  
+    background: rgb(240, 184, 184);
 
    
 }
@@ -16,6 +17,7 @@
 {
     display: flex;
     width: 100%;
+  
     overflow: scroll;
 
 }
