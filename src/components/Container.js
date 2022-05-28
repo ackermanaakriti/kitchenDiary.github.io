@@ -13,11 +13,11 @@ function Container() {
        <div className='food-info'>
          <h1>FOOD AND RECIPES</h1>
          <h2>Best food for your test</h2>
-       <p>
-       Check the package directions of the spaghetti you plan to cook. On the box, there should be an approximate cook time for “al-dente,” which means the pasta will be tender, but not mushy. It will still have a bit of a bite, which is perfect.
-   
-       </p>
-       <button className='recipe-btn'>FULL RECIPE..</button> 
+     
+       <div className='search-container'>
+         <input className='search-input' placeholder='search everything you want'/>
+       <button className='recipe-btn'  type='search'>SEARCH</button> 
+       </div>
        </div>
        <div className='img-container'>
       <img className='body-img' src={foodb}/>

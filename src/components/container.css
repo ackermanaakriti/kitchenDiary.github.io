@@ -29,12 +29,26 @@
    
     float: right;
 }
+.search-container
+{
+    
+    height:40vh;
+}
+ .search-input
+ {
+     padding:10px;
+     border:2px solid black;
+     margin-top :9vh;
+     width: 500px;
+     border-radius: 20px ;
+     font-size: 20px;
+ }
 .recipe-btn
 {
     padding: 8px;
-    width: 200px;
+   
     border: 2px solid black;
-    margin-left:20vw;
+  
     border-radius: 20px;
     margin-top:9vh;
     cursor: pointer;
